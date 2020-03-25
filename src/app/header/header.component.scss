@@ -1,0 +1,27 @@
+@import '../../colors.scss';
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em;
+    background-color: $colorSolid;
+    color: $colorLight;
+    .userZone,.paginas{
+        cursor: pointer;
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+// header{
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 0.8em;
+//     background-color: $colorSolid;
+//     color: $colorLight;
+// }
+// header .userZone, header .paginas{
+//     cursor: pointer;
+//     width: 20vw;
+//     display: flex;
+//     justify-content: space-between;
+// }
