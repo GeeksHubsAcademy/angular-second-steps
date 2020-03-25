@@ -11,6 +11,17 @@ header{
         display: flex;
         justify-content: space-between;
     }
+    a{
+        all:unset;
+        padding: 0.5em;
+        transition: 0.5s;
+    }
+    a:hover{
+        color:$colorSoft
+    }
+    .active-link{
+        background-color: $colorDark;
+    }
 }
 // header{
 //     display: flex;
